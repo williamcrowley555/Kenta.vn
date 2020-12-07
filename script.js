@@ -1,5 +1,7 @@
 $(document).ready(function(){
 
+
+
 $('#itemslider').carousel({ interval: 3000 });
 
 $('.carousel-showmanymoveone .item').each(function(){
@@ -18,3 +20,5 @@ itemToClone.children(':first-child').clone()
 }
 });
 });
+
+
