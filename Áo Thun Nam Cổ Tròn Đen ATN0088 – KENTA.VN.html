@@ -5,7 +5,6 @@
 	
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-	<script src="script.js"></script>
 
 
 
@@ -815,7 +814,8 @@ ecomm_totalvalue: '180000'
 
 <div class="review_section">
 	<h2>Đánh giá sản phẩm</h2>
-	<!--<button id="review-add-btn" aria-label="add review" title="Add Review"></button>-->
+	<button id="review-add-btn" aria-label="add review" title="Add Review">+</button>
+      
   
 
 			   <div class="blog-card">
@@ -860,34 +860,34 @@ ecomm_totalvalue: '180000'
 	<div id="modal" role="dialog" aria-modal="true" aria-labelledby="add-review-header" class="">
 	  <button class="close-btn" aria-label="close" title="Close">x</button>
 	  <div id="review-form-container">
-		<h2 id="add-review-header">Add Review</h2>
+		<h2 id="add-review-header">Thêm đánh giá</h2>
 		<form id="review-form">
 		  <div class="fieldset">
-			<label for="reviewName">Name</label>
+			<label for="reviewName">Tên của bạn</label>
 			<input name="reviewName" id="reviewName" required="">
 		  </div>
 		  <div class="fieldset">
-			<label>Rating</label>
+			<label>Xếp hạng</label>
 			<div class="rate">
 			  <input type="radio" id="star5" name="rate" value="5" onkeydown="navRadioGroup(event)" onfocus="setFocus(event)" required="">
-			  <label for="star5" title="5 stars">5 stars</label>
+			  <label for="star5" title="5 stars">5 sao</label>
 			  <input type="radio" id="star4" name="rate" value="4" onkeydown="navRadioGroup(event)">
-			  <label for="star4" title="4 stars">4 stars</label>
+			  <label for="star4" title="4 stars">4 sao</label>
 			  <input type="radio" id="star3" name="rate" value="3" onkeydown="navRadioGroup(event)">
-			  <label for="star3" title="3 stars">3 stars</label>
+			  <label for="star3" title="3 stars">3 sao</label>
 			  <input type="radio" id="star2" name="rate" value="2" onkeydown="navRadioGroup(event)">
-			  <label for="star2" title="2 stars">2 stars</label>
+			  <label for="star2" title="2 stars">2 sao</label>
 			  <input type="radio" id="star1" name="https://codepen.io/pen/rate" value="1" onkeydown="navRadioGroup(event)" onfocus="setFocus(event)">
-			  <label for="star1" title="1 star">1 star</label>
+			  <label for="star1" title="1 star">1 sao</label>
 			</div>
 		  </div>
 
 		  <div class="fieldset">
-			<label for="reviewComments">Comments</label>
+			<label for="reviewComments">Bình luận</label>
 			<textarea name="reviewComments" id="reviewComments" cols="20" rows="5" required=""></textarea>
 		  </div>
 		  <div class="fieldset right">
-			<button id="submit-review-btn">Submit</button>
+			<button id="submit-review-btn">Xác nhận</button>
 		  </div>
 		</form>
 	  </div>
@@ -943,14 +943,14 @@ ecomm_totalvalue: '180000'
 		<a href="https://kenta.vn/products/ao-thun-polo-hong-atp0024" title="Áo Thun Polo Nam ATP0024" class="image-resize" style="height: 295px;">
 			<picture>
 				<source media="(max-width: 767px)" srcset="F:\GITHUB\Kenta.vn\Áo Thun Nam Cổ Tròn Đen ATN0088 – KENTA.VN_files\1_12efa932159d40ad82e74dd290da58e5_grande.webp">
-				<source media="(min-width: 768px)" srcset="//product.hstatic.net/1000096703/product/1_12efa932159d40ad82e74dd290da58e5_grande.jpg">
-				<img class="img-loop" alt=" Áo Thun Polo Nam ATP0024 " src="./Áo Thun Nam Cổ Tròn Đen ATN0088 – KENTA.VN_files/1_12efa932159d40ad82e74dd290da58e5_grande.webp">
+				<source media="(min-width: 768px)" srcset="https://product.hstatic.net/1000096703/product/1_5da101f39d0843c597440dba1e40e994_grande.jpg">
+				<img class="img-loop" alt=" Áo Thun Polo Nam ATP0024 " src="https://product.hstatic.net/1000096703/product/1_fb4391cfff65435996b67ea9e61e9a8b_grande.jpg">
 			</picture>
 			
 			<picture>
 				<source media="(max-width: 767px)" srcset="//product.hstatic.net/1000096703/product/2_3d97b44587934fe7a39c1ef53d2eb87b_large.jpg">
-				<source media="(min-width: 768px)" srcset="//product.hstatic.net/1000096703/product/2_3d97b44587934fe7a39c1ef53d2eb87b_grande.jpg">
-				<img class="img-loop img-hover" alt=" Áo Thun Polo Nam ATP0024 " src="./Áo Thun Nam Cổ Tròn Đen ATN0088 – KENTA.VN_files/2_3d97b44587934fe7a39c1ef53d2eb87b_grande.webp">
+				<source media="(min-width: 768px)" srcset="https://product.hstatic.net/1000096703/product/2_734c395607e84312886c03b9c8b3feaf_grande.jpg">
+				<img class="img-loop img-hover" alt=" Áo Thun Polo Nam ATP0024 " src="https://product.hstatic.net/1000096703/product/1_fb4391cfff65435996b67ea9e61e9a8b_grande.jpg">
 			</picture>
 		</a>
 		
@@ -1001,14 +1001,14 @@ ecomm_totalvalue: '180000'
 		<a href="https://kenta.vn/products/ao-thun-polo-tim-atp0023" title="Áo Thun Polo Nam ATP0023" class="image-resize" style="height: 295px;">
 			<picture>
 				<source media="(max-width: 767px)" srcset="//product.hstatic.net/1000096703/product/1_bfeb51fdc0a14e0fb3d4b85a00283ea6_large.jpg">
-				<source media="(min-width: 768px)" srcset="//product.hstatic.net/1000096703/product/1_bfeb51fdc0a14e0fb3d4b85a00283ea6_grande.jpg">
-				<img class="img-loop" alt=" Áo Thun Polo Nam ATP0023 " src="./Áo Thun Nam Cổ Tròn Đen ATN0088 – KENTA.VN_files/1_bfeb51fdc0a14e0fb3d4b85a00283ea6_grande.webp">
+				<source media="(min-width: 768px)" srcset="https://product.hstatic.net/1000096703/product/1_12efa932159d40ad82e74dd290da58e5_grande.jpg">
+				<img class="img-loop" alt=" Áo Thun Polo Nam ATP0023 " src="https://product.hstatic.net/1000096703/product/1_bfeb51fdc0a14e0fb3d4b85a00283ea6_grande.jpg">
 			</picture>
 			
 			<picture>
 				<source media="(max-width: 767px)" srcset="//product.hstatic.net/1000096703/product/2_aa0d408209fe47489a45dc1af16ef01e_large.jpg">
-				<source media="(min-width: 768px)" srcset="//product.hstatic.net/1000096703/product/2_aa0d408209fe47489a45dc1af16ef01e_grande.jpg">
-				<img class="img-loop img-hover" alt=" Áo Thun Polo Nam ATP0023 " src="./Áo Thun Nam Cổ Tròn Đen ATN0088 – KENTA.VN_files/2_aa0d408209fe47489a45dc1af16ef01e_grande.webp">
+				<source media="(min-width: 768px)" srcset="https://product.hstatic.net/1000096703/product/2_3d97b44587934fe7a39c1ef53d2eb87b_grande.jpg">
+				<img class="img-loop img-hover" alt=" Áo Thun Polo Nam ATP0023 " src="https://product.hstatic.net/1000096703/product/1_bfeb51fdc0a14e0fb3d4b85a00283ea6_grande.jpg">
 			</picture>
 		</a>
 		
@@ -1059,14 +1059,14 @@ ecomm_totalvalue: '180000'
 		<a href="https://kenta.vn/products/ao-thun-polo-cam-atp0024" title="Áo Thun Polo Nam ATP0024" class="image-resize" style="height: 295px;">
 			<picture>
 				<source media="(max-width: 767px)" srcset="//product.hstatic.net/1000096703/product/1_5da101f39d0843c597440dba1e40e994_large.jpg">
-				<source media="(min-width: 768px)" srcset="//product.hstatic.net/1000096703/product/1_5da101f39d0843c597440dba1e40e994_grande.jpg">
-				<img class="img-loop" alt=" Áo Thun Polo Nam ATP0024 " src="./Áo Thun Nam Cổ Tròn Đen ATN0088 – KENTA.VN_files/1_5da101f39d0843c597440dba1e40e994_grande.webp">
+				<source media="(min-width: 768px)" srcset="https://product.hstatic.net/1000096703/product/1_bfeb51fdc0a14e0fb3d4b85a00283ea6_grande.jpg">
+				<img class="img-loop" alt=" Áo Thun Polo Nam ATP0024 " src="https://product.hstatic.net/1000096703/product/1_12efa932159d40ad82e74dd290da58e5_grande.jpg">
 			</picture>
 			
 			<picture>
 				<source media="(max-width: 767px)" srcset="//product.hstatic.net/1000096703/product/2_734c395607e84312886c03b9c8b3feaf_large.jpg">
-				<source media="(min-width: 768px)" srcset="//product.hstatic.net/1000096703/product/2_734c395607e84312886c03b9c8b3feaf_grande.jpg">
-				<img class="img-loop img-hover" alt=" Áo Thun Polo Nam ATP0024 " src="./Áo Thun Nam Cổ Tròn Đen ATN0088 – KENTA.VN_files/2_734c395607e84312886c03b9c8b3feaf_grande.webp">
+				<source media="(min-width: 768px)" srcset="https://product.hstatic.net/1000096703/product/2_aa0d408209fe47489a45dc1af16ef01e_grande.jpg">
+				<img class="img-loop img-hover" alt=" Áo Thun Polo Nam ATP0024 " src="https://product.hstatic.net/1000096703/product/1_12efa932159d40ad82e74dd290da58e5_grande.jpg">
 			</picture>
 		</a>
 		
@@ -1117,14 +1117,14 @@ ecomm_totalvalue: '180000'
 		<a href="https://kenta.vn/products/ao-thun-polo-nam-vang-atp0024" title="Áo Thun Polo Nam ATP0024" class="image-resize" style="height: 295px;">
 			<picture>
 				<source media="(max-width: 767px)" srcset="//product.hstatic.net/1000096703/product/1_fb4391cfff65435996b67ea9e61e9a8b_large.jpg">
-				<source media="(min-width: 768px)" srcset="//product.hstatic.net/1000096703/product/1_fb4391cfff65435996b67ea9e61e9a8b_grande.jpg">
-				<img class="img-loop" alt=" Áo Thun Polo Nam ATP0024 " src="./Áo Thun Nam Cổ Tròn Đen ATN0088 – KENTA.VN_files/1_fb4391cfff65435996b67ea9e61e9a8b_grande.webp">
+				<source media="(min-width: 768px)" srcset="https://product.hstatic.net/1000096703/product/1_fb4391cfff65435996b67ea9e61e9a8b_grande.jpg">
+				<img class="img-loop" alt=" Áo Thun Polo Nam ATP0024 " src="https://product.hstatic.net/1000096703/product/1_5da101f39d0843c597440dba1e40e994_grande.jpg">
 			</picture>
 			
 			<picture>
 				<source media="(max-width: 767px)" srcset="//product.hstatic.net/1000096703/product/2_a79704be7c8747dcb8839ecb8895f586_large.jpg">
-				<source media="(min-width: 768px)" srcset="//product.hstatic.net/1000096703/product/2_a79704be7c8747dcb8839ecb8895f586_grande.jpg">
-				<img class="img-loop img-hover" alt=" Áo Thun Polo Nam ATP0024 " src="./Áo Thun Nam Cổ Tròn Đen ATN0088 – KENTA.VN_files/2_a79704be7c8747dcb8839ecb8895f586_grande.webp">
+				<source media="(min-width: 768px)" srcset="https://product.hstatic.net/1000096703/product/2_a79704be7c8747dcb8839ecb8895f586_grande.jpg">
+				<img class="img-loop img-hover" alt=" Áo Thun Polo Nam ATP0024 " src="https://product.hstatic.net/1000096703/product/1_5da101f39d0843c597440dba1e40e994_grande.jpg">
 			</picture>
 		</a>
 		
@@ -2151,6 +2151,7 @@ ecomm_totalvalue: '180000'
 <script src="./Áo Thun Nam Cổ Tròn Đen ATN0088 – KENTA.VN_files/jquery.fancybox.min.js.tải xuống" type="text/javascript"></script>
 <script src="./Áo Thun Nam Cổ Tròn Đen ATN0088 – KENTA.VN_files/lazysizes.min.js.tải xuống"></script>
 
+<script src="script1.js"></script>
 <!-- haravan app -->
 <!-- END - haravan app -->
 

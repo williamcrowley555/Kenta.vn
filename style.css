@@ -157,6 +157,7 @@
   margin: 8px 8px 0;
   padding: 0 8px;
   cursor: pointer;
+  float: right;
 }
 .review_section form {
   width:70vw;
@@ -327,9 +328,6 @@ label {
 /*PEN STYLES*/
  .review_section * {
 	 box-sizing: border-box;
-}
-.review_section {
-	 background: #f1f1f1;
 }
  .blog-card {
 	 display: flex;
